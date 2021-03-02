@@ -78,7 +78,7 @@ public class WecomeP {
 		
 		lbllogbut.addMouseListener(new MouseAdapter() {
 			public void mouseEntered(MouseEvent e) {
-				ii = new ImageIcon(this.getClass().getResource("loginbut.png"));
+				ii = new ImageIcon(this.getClass().getResource("\\QuiCash\\Pics\\loginbut.png"));
 				lbllogbut.setIcon(ii);
 			}
 			public void mouseExited(MouseEvent e) {
